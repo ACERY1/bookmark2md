@@ -1,0 +1,22 @@
+{
+  "name": "bookmark2md",
+  "version": "1.0.7",
+  "description": "convert your safari bookmark to markdown or json format",
+  "main": "./bin/cli.js",
+  "scripts": {},
+  "keywords": [
+    "bookmark",
+    "markdown"
+  ],
+  "author": "acery",
+  "license": "MIT",
+  "dependencies": {
+    "applescript": "^1.0.0",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.19.0",
+    "json2md": "^1.6.1"
+  },
+  "bin": {
+    "bookmark2md": "./bin/cli.js"
+  }
+}
